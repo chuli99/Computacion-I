@@ -1,0 +1,10 @@
+Team 1 
+Name: Jose Age: 36
+Name: Maria Age: 23
+Name: Pablo Age: 28
+Name: Juana Age: 21
+TEAM 2 
+Name: Valentina Age: 19
+Name: Nicolas Age: 20
+Name: Alexis Age: 20
+Name: Facundo Age: 19
