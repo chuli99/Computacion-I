@@ -17,15 +17,17 @@ print(user1.show_user())
 print(user2.show_user())
 print(user3.show_user())
 print(user4.show_user())
+
 print(user1)
 
 list_q1 = Bank()
 list_q2 = Bank()
 
-list_q1.add_user_queue_1(user1.show_user())
-list_q2.add_user_queue_2(user2.show_user())
-list_q1.add_user_queue_1(user3.show_user())
-list_q2.add_user_queue_2(user4.show_user())
+list_q1.add_user_queue(user1.show_user(),user1.show_queue())
+list_q2.add_user_queue(user2.show_user(),user2.show_queue())
+list_q1.add_user_queue(user3.show_user(),user3.show_queue())
+list_q2.add_user_queue(user4.show_user(),user4.show_queue())
 
-print(list_q1.)
-print(list_q2.)
+print(list_q1)
+print("----")
+print(list_q2)

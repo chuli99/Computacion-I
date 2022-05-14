@@ -10,4 +10,7 @@ class Client:
         return f"Name:{self.name}-Surname:{self.surname}-Dni: {self.dni}-State:{self.state}"
 
     def show_user(self):
-        return f"Name:{self.name}-Surname:{self.surname}-Dni: {self.dni}-State:{self.state}"
+        return f"Name:{self.name}-Surname:{self.surname}-Dni: {self.dni}-State:{self.state}-queue = {self.queue}"
+
+    def show_queue(self):
+        return (self.queue)
