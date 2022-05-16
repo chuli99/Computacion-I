@@ -20,6 +20,6 @@ class Course:
         self.__code = code
         return code
 
-course = Course('Algebra lineal',1)
+#course = Course('Algebra lineal',1)
 
-print(course)
+#print(course)

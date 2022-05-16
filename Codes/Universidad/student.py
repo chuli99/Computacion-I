@@ -22,7 +22,7 @@ class Student:
         return address
 
     def get_dni(self):
-        return self.__address
+        return self.__dni
 
     def set_dni(self, web):
         self.__web = web
@@ -35,8 +35,13 @@ class Student:
         self.__email = email
         return email
 
+    def dni_verificator(self,documento):
+        if documento == int(documento) and len(str(documento)) == 8:
+                return "messi",str(documento)
+        else:
+            return "elbicho",str(documento)
 
 
-student1 = Student('Julian','Castillo', 42210213 ,'juliancastillo0399@gmail.com')
+#student1 = Student('Julian','Castillo', 42210213 ,'juliancastillo0399@gmail.com')
 
-print(student1)
+#print(student1)

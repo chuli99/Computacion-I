@@ -33,6 +33,6 @@ class University:
 
 
 
-university1 = University('Mendoza','Tirasos 1607','um.edu.com.ar')
+#university1 = University('Mendoza','Tirasos 1607','um.edu.com.ar')
 
-print(university1)
+#print(university1)
