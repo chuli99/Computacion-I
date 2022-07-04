@@ -1,10 +1,16 @@
 
-import Codes.Banco.file as f
+import file as f
 
 class Bank:
     def __init__(self):
         self.queue_1 = []
         self.queue_2 = []
+
+    def get_q1(self):
+        return(self.queue_1)
+    
+    def get_q2(self):
+        return(self.queue_2)
 
     def add_user_queue(self,user,queue):
         if queue == 1:
